@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DestinationSearch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+}
+
+.search-heading {
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 40px;
+  color: #0f172a;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 15px;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+@media screen AND (min-width: 768px) {
+  .DestinationSearch-container {
+    justify-content: flex-start;
+  }
+
+  .search-heading {
+    margin-top: 95px;
+  }
+
+  .Destination-list-container {
+    justify-content: flex-start;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  height: 70px;
+  width: 300px;
+  background-size: cover;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.search-input {
+  background-color: #f1f5f9;
+  color: #000000;
+  background-size: cover;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.Destination-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 40px;
+}

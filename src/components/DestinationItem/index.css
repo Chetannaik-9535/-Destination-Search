@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.destination-Details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 32px;
+}
+
+.destination-image {
+  height: 175px;
+  width: 235px;
+  border-radius: 10px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+}
